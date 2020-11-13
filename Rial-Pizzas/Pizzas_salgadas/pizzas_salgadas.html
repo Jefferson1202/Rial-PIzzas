@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Pizzas Salgadas</title>
+    
+</head>
+<body>
+    <header class="menu_principal">
+        <main>
+         <div class="header-1">
+          <div class="logo">
+                 <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/logo.png" alt="">
+          
+        </main>
+       </header>
+       <main class="col-100 menu-urls">
+        <div class="header-2">
+           <div class="menu">
+            <ul>
+                <li><a href="/Rial-Pizzas/Rial-Pizzas/principal/principal.html"><strong> Principal </strong></a></li>
+                <li><a href="/Rial-Pizzas/Rial-Pizzas/Promoções/promoções.html"><strong></strong> Promoções </strong></a></li>
+                <li><a href="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/pizzas_salgadas.html"><strong>Pizzas Salgadas </strong> </a></li>
+                <li><a href="/Rial-Pizzas/Rial-Pizzas/pizzasdoces/index1.html"><strong></strong> Pizzas Doces </strong></a></li>
+                <li><a href="/Rial-Pizzas/Rial-Pizzas/Bebidas/index.html"><strong> Bebidas </strong></a></li>
+                <li><a href="/Rial-Pizzas/Rial-Pizzas/Carrinho/Carrinho.html"><strong> Carrinho </strong></a></li>
+                  
+              </ul>
+           </div>
+           <div class="busca">
+               <input placeholder="Pesquise" type="text">
+               <button><img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pesquisa.png" alt=""></button>
+               
+           </div>
+        </div>
+    </main>
+    <!-- <nav id="menu">
+        <ul>
+            <li>
+               <a href="#">Home</a> 
+            </li>
+
+            <li>
+                <a href="#">Promoções</a>
+            </li>
+
+            <li>
+                <a href="#">Pedidos</a>
+            </li>
+
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+    </nav> -->
+<section>
+    <div id="cardapio">
+        <div id="item">
+            <h2>
+                Pizza de Calabresa</h2>
+                <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/WhatsApp Image 2020-11-07 at 22.07.20.jpeg">
+                <p>Mussarela, molho de tomates Molecaggio, generosa quantidade de <br>calabresa fatiada, um toque especial de orégano e azeitonas pretas.  
+                </p>
+                <h1>R$ 60,00</h1>
+                qtd: <input type="number" value="1" min="1" max="100" id="qtd1">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza de Calabresa', document.getElementById('qtd1').value, '60.00', 1)"> Comprar </button>
+               
+            
+        </div>
+        <div id="item">
+            <h2>Pizza Portuguesa</h2>
+                <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pizza_portuguesa.png">
+                <p>Presunto, ovos, muçarela e ervilha. <br></p>
+             <h1>R$ 60,00</h1>
+             qtd: <input type="number" value="1" min="1" max="100" id="qtd2">
+            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza Portuguesa', document.getElementById('qtd2').value, '60.00', 2)"> Comprar </button>
+               
+        </div>
+
+        <div id="item">
+            <h2>Pizza de Atum</h2>
+                <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pizza_atum.png">
+                <p>Atum sólido e cebola.</p>
+                <h1>R$ 60,00</h1>
+                qtd: <input type="number" value="1" min="1" max="100" id="qtd3">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza de Atum', document.getElementById('qtd3').value, '60.00', 3)"> Comprar </button>
+               
+        </div>
+        
+    </div>
+        
+        <div id="cardapio2">
+            <div id="iten">
+                <h2>Pizza Baiana</h2>
+                    <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pizza_baiana.png">
+                    <p>Calabresa moída, ovos, pimenta, cebola e um toque de parmesão.<br><br>
+                    </p>
+                    <h1>R$ 60,00</h1>
+                    qtd: <input type="number" value="1" min="1" max="100" id="qtd4">
+                    <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza Baiana', document.getElementById('qtd4').value, '60.00', 4)"> Comprar </button>
+                
+            </div>
+            <div id="iten">
+                <h2>Pizza Presunto e Mussarela</h2>
+                    <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pizza_presunto_mussarela-1.png">
+                    <p> Molho de tomates, presunto, <br>coberto por uma bela quantidade de mussarela, tomates e orégano.
+                    </p>
+                 <h1>R$ 60,00</h1>
+                 qtd: <input type="number" value="1" min="1" max="100" id="qtd5">
+                <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza Presunto e Mussarela', document.getElementById('qtd5').value, '60.00', 5)"> Comprar </button>
+            </div>
+    
+            <div id="iten">
+                <h2>Pizza Carioca</h2>
+                    <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pizza_carioca.png">
+                    <p>Molho de tomates, mussarela, presunto em rodelas, <br>tomates cortados em cubos, <br>requeijão cremoso, azeitonas pretas e orégano.
+                    </p>
+                    <h1>R$ 60,00</h1>
+                    qtd: <input type="number" value="1" min="1" max="100" id="qtd6">
+                   <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza Carioca', document.getElementById('qtd6').value, '60.00', 6)"> Comprar </button>
+                    
+            </div>
+        </section>  
+   	  <hr>
+
+
+         <footer>
+     
+            <a  href="https://www.facebook.com/Rial-Pizzas-104532538137108/" target="_blank">
+            <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/facebook.png" alt="">
+              </a>
+           
+            <a  href="https://www.instagram.com/rial_pizzas/" target="_blank">
+            <img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/INSTAGRAM.png" alt="">
+              </a>
+                  
+          </footer>
+
+<script>
+    function AddCarrinho(produto, qtd, valor, posicao)
+    {
+        localStorage.setItem("produto" + posicao, produto);
+        localStorage.setItem("qtd" + posicao, qtd);
+        valor = valor * qtd;
+        localStorage.setItem("valor" + posicao, valor);
+        
+    }
+</script>
+
+</body>
+
+</html>

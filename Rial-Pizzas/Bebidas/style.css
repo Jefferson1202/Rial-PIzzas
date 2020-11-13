@@ -1,0 +1,250 @@
+section#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1330px;
+    background-color: #800000;
+    padding-top: 40px;
+}
+    
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: floralwhite;
+    background-color: rgba(0, 0, 0, 0.438);
+    margin: 20px ;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    height: 464px;
+    
+    
+}
+
+div.card > figure {
+    
+    background-color:#470411;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+
+#img {
+   
+    width: 80%;
+    height: 280px;
+    margin: 5%;
+}
+
+#img2 {
+    width: 100%;
+    height: 330px;
+ }
+
+#img3{
+
+    width: 60%;
+    height: 280px;
+    margin: 5%;
+}
+
+#img4{
+    width: 50%;
+    height: 270px;
+    margin: 8%;
+}
+
+#img5{
+     margin: 5%;
+}
+
+#img6{
+    width: 50%;
+    height: 290px;
+    margin: 5%; }
+
+    
+
+div#descricao {
+    background-color:#470411;
+    font-family: sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+header{
+     width: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+     height: 60px;
+     margin: 0%;
+    }
+
+    #menu ul {
+        text-align: center;
+        list-style: none;}
+
+
+    nav#menu ul li a {
+        padding: 4px 10px;
+        font-size: 22px;
+        background-color: white;
+        color: #333;
+        text-decoration: none;
+        /* border-bottom: 3px solid #5c4444; */
+        border-radius: 5px;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
+    #menu ul li {
+        display: inline;
+    }
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    #menu {
+        margin-top: 20px;
+    }
+
+    body {
+        background: #800000;
+    }
+   #descricao button
+    {
+    
+        background-color: #dc143c;
+        padding-top: 10px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        cursor:pointer;
+        border: none;
+        width: 100%;
+}
+   #descricao button:hover {
+    background-color: pink;
+}
+body {
+    background: #6b0d1f;
+    }
+    .menu_principal{
+        width: 100%;
+        background-color: #252323;
+        height: 60px;
+    }
+    .menu_principal{
+        border: none;
+        margin: 0 auto;
+    }
+    main{
+        margin: 0 auto;
+        width: 980px;
+        position: relative;
+    }
+    .logo{
+        padding: 16px;
+        float: left;
+        width: 70%;
+    }
+    
+    .header-2{
+        background-color: #6b0d1f;
+        border: none;
+        height: 48px;
+        position: relative;
+        float: center;
+        margin: 0 auto;
+    }
+    .header-2{
+        width: 980px;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    .menu-urls{
+        height: 80px;
+        border-bottom: 3px solid #252323;
+    }
+    .menu ul li{
+        display: inline-block;
+        color: white;
+        margin-left: 13px;
+        height: 30px;
+    }
+    .menu ul li:hover{
+        border-bottom: 3px solid white;
+    }
+    .menu ul li a:hover{
+        color: #c92040;
+        
+    }
+    .menu ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .menu{
+        width: 70%;
+        float: left;
+    }
+    .busca{
+        text-align: center;
+        width: 30%;
+        float: right;
+    }
+    .busca input{
+        background-position: right;
+        background-image: url('');
+        background-repeat: no-repeat;
+        height: 30px;
+        margin-top: 10px;
+        border: 1px solid #d6d6d6;
+        width: 170px;
+        
+    }
+    .col-100{
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background: #6b0d1f;
+        
+    }
+    input{
+        text-align: center;
+        width: 323px;
+    }
+    
+   

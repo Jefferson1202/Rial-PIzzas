@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rial Pizza's' home</title>    <link rel="stylesheet" href="/Rial-Pizzas/Rial-Pizzas/Carrinho/css/main.css">
+                           <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+  <header class="menu_principal">
+     <main>
+      <div class="header-1">
+       <div class="logo">
+              <img src="/Rial-Pizzas/Rial-Pizzas/Carrinho/img/logo.png" alt="">
+         </div>
+   
+     </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+           <div class="menu">
+            <ul>
+              <li><a href="/Rial-Pizzas/Rial-Pizzas/principal/principal.html"><strong> Principal </strong></a></li>
+              <li><a href="/Rial-Pizzas/Rial-Pizzas/Promoções/promoções.html"><strong></strong> Promoções </strong></a></li>
+              <li><a href="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/pizzas_salgadas.html"><strong>Pizzas Salgadas </strong> </a></li>
+              <li><a href="/Rial-Pizzas/Rial-Pizzas/pizzasdoces/index1.html"><strong></strong> Pizzas Doces </strong></a></li>
+              <li><a href="/Rial-Pizzas/Rial-Pizzas/Bebidas/index.html"><strong> Bebidas </strong></a></li>
+              <li><a href="/Rial-Pizzas/Rial-Pizzas/Carrinho/Carrinho.html"><strong> Carrinho </strong></a></li>
+                
+            </ul>
+           </div>
+           <div class="busca">
+               <input placeholder="Pesquise" type="text">
+               <button><img src="/Rial-Pizzas/Rial-Pizzas/Pizzas_salgadas/img/pesquisa.png" alt=""></button>
+               
+           </div>
+        </div>
+    </main>
+        <div class="col-100">
+           
+       <script type="text/javascript" src="js/jquery.js"></script>
+       <script type="text/javascript" src="js/jquery-migrate.js"></script>
+       <script type="text/javascript" src="js/slick.min.js"></script>
+       <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+<div id="itens"> 
+<div>Total: R$ <span id="total"></span> </div>
+
+<script>
+ var total = 0; 
+ var i = 0;     
+ var valor = 0; 
+ 
+ for(i=1; i<=99; i++) 
+ {
+	 var prod = localStorage.getItem("produto" + i + ""); 
+	 if(prod != null) 
+	 {	
+		 
+		 document.getElementById("itens").innerHTML += localStorage.getItem("qtd" + i) + " x ";
+		 document.getElementById("itens").innerHTML += localStorage.getItem("produto" + i);
+		 document.getElementById("itens").innerHTML += " ";
+		 document.getElementById("itens").innerHTML += "R$: " + localStorage.getItem("valor" + i) + "<br>";
+		 
+		 
+		 valor = parseFloat(localStorage.getItem("valor" + i)); 
+		 total = (total + valor);
+	 }
+ } 
+ 
+ document.getElementById("total").innerHTML = total.toFixed(2); 
+</script>
+
+<button type="button" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+</div>
+
+<hr>
+
+<footer>
+     
+    <a  href="https://www.facebook.com/Rial-Pizzas-104532538137108/" target="_blank">
+    <img src="/Rial-Pizzas/Rial-Pizzas/Carrinho/img/facebook.png" alt="">
+      </a>
+   
+    <a  href="https://www.instagram.com/rial_pizzas/" target="_blank">
+    <img src="/Rial-Pizzas/Rial-Pizzas/Carrinho/img/INSTAGRAM.png" alt="">
+      </a>
+ 
+  </footer>
+
+</html>

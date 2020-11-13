@@ -1,0 +1,138 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #6b0d1f;
+    color: aliceblue;
+}
+.menu_principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+.menu_principal{
+    border: none;
+    margin: 0 auto;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    padding: 16px;
+    float: left;
+    width: 70%;
+}
+
+.header-2{
+    background-color: #6b0d1f;
+    border: none;
+    height: 48px;
+    position: relative;
+    float: center;
+    margin: 0 auto;
+}
+.header-2{
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #252323;
+}
+.menu ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 13px;
+    height: 30px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid white;
+}
+.menu ul li a:hover{
+    color: #c92040;
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    text-align: center;
+    width: 40%;
+    float: right;
+}
+.busca input{
+    background-position: right;
+    background-image: url('../img/pesquisa.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    left: 300px;
+    background-color: transparent;
+    background-image: url(../img/setaesquerda.png);
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    right: 300px;
+    background-color: transparent;
+    background-image: url(../img/setadireita.png);
+}
+.busca{
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input{
+    background-position: right;
+    background-image: url('../img/pesquisa.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 570px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #6b0d1f;
+    
+}
+hr{
+    position: relative;
+    top: 550px;
+    size: 0px;
+}
+
