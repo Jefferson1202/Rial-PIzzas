@@ -50,8 +50,7 @@ main{
     border-bottom: 3px solid white;
 }
 .menu ul li a:hover{
-    color: #800080;
-    
+    color:  #c92040;
 }
 .menu ul li a{
     color: white;
